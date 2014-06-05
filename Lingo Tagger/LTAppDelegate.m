@@ -5,6 +5,7 @@
 //  Created by patrick on 05/06/2014.
 //  Copyright (c) 2014 patrick. All rights reserved.
 //
+// Based on code by NSHipster
 
 #import "LTAppDelegate.h"
 
@@ -27,21 +28,23 @@ NSLinguisticTagger *tagger = [[NSLinguisticTagger alloc] initWithTagSchemes: [NS
     
     NSString *schemeToUse = nil;
     
-    if ([language isEqualToString:@"en"]) {
+    if ([[NSLinguisticTagger availableTagSchemesForLanguage:language] containsObject:@"NameTypeOrLexicalClass"]) {
         schemeToUse = NSLinguisticTagSchemeNameTypeOrLexicalClass;
     } else {
         schemeToUse = NSLinguisticTagSchemeLexicalClass;
     }
     
+    
     [tagger enumerateTagsInRange:NSMakeRange(0, [question length]) scheme:schemeToUse options:options usingBlock:^(NSString *tag, NSRange tokenRange, NSRange sentenceRange, BOOL *stop) {
         NSString *token = [question substringWithRange:tokenRange];
-        //NSLog(@"%@: %@", token, tag);
         
         [outputArray addObject:@{@"word" : token, @"tag": tag}];
     }];
     
-    NSLog(@"%@", outputArray);
-    [self.outputTextView setString:  [outputArray description] ];
+    
+    NSData *jsonData = [NSJSONSerialization dataWithJSONObject:outputArray options:NSJSONWritingPrettyPrinted error:nil];
+    NSString *jsonString = [[NSString alloc] initWithData:jsonData encoding:NSUTF8StringEncoding];
+    [self.outputTextView setString:  jsonString ];
 }
 
 @end

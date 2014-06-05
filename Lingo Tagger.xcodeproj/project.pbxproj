@@ -16,8 +16,6 @@
 		CDFE75EA19407F5F00447228 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CDFE75E919407F5F00447228 /* Images.xcassets */; };
 		CDFE75F119407F5F00447228 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CDFE75F019407F5F00447228 /* XCTest.framework */; };
 		CDFE75F219407F5F00447228 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CDFE75D119407F5F00447228 /* Cocoa.framework */; };
-		CDFE75FA19407F5F00447228 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CDFE75F819407F5F00447228 /* InfoPlist.strings */; };
-		CDFE75FC19407F5F00447228 /* Lingo_TaggerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CDFE75FB19407F5F00447228 /* Lingo_TaggerTests.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,9 +45,6 @@
 		CDFE75E919407F5F00447228 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		CDFE75EF19407F5F00447228 /* Lingo TaggerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Lingo TaggerTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CDFE75F019407F5F00447228 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
-		CDFE75F719407F5F00447228 /* Lingo TaggerTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Lingo TaggerTests-Info.plist"; sourceTree = "<group>"; };
-		CDFE75F919407F5F00447228 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		CDFE75FB19407F5F00447228 /* Lingo_TaggerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Lingo_TaggerTests.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,7 +72,6 @@
 			isa = PBXGroup;
 			children = (
 				CDFE75D719407F5F00447228 /* Lingo Tagger */,
-				CDFE75F519407F5F00447228 /* Lingo TaggerTests */,
 				CDFE75D019407F5F00447228 /* Frameworks */,
 				CDFE75CF19407F5F00447228 /* Products */,
 			);
@@ -132,24 +126,6 @@
 				CDFE75DD19407F5F00447228 /* main.m */,
 				CDFE75DF19407F5F00447228 /* Lingo Tagger-Prefix.pch */,
 				CDFE75E019407F5F00447228 /* Credits.rtf */,
-			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		CDFE75F519407F5F00447228 /* Lingo TaggerTests */ = {
-			isa = PBXGroup;
-			children = (
-				CDFE75FB19407F5F00447228 /* Lingo_TaggerTests.m */,
-				CDFE75F619407F5F00447228 /* Supporting Files */,
-			);
-			path = "Lingo TaggerTests";
-			sourceTree = "<group>";
-		};
-		CDFE75F619407F5F00447228 /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				CDFE75F719407F5F00447228 /* Lingo TaggerTests-Info.plist */,
-				CDFE75F819407F5F00447228 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -242,7 +218,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CDFE75FA19407F5F00447228 /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -262,7 +237,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CDFE75FC19407F5F00447228 /* Lingo_TaggerTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -299,14 +273,6 @@
 				CDFE75E719407F5F00447228 /* Base */,
 			);
 			name = MainMenu.xib;
-			sourceTree = "<group>";
-		};
-		CDFE75F819407F5F00447228 /* InfoPlist.strings */ = {
-			isa = PBXVariantGroup;
-			children = (
-				CDFE75F919407F5F00447228 /* en */,
-			);
-			name = InfoPlist.strings;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -469,6 +435,7 @@
 				CDFE760119407F5F00447228 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CDFE760219407F5F00447228 /* Build configuration list for PBXNativeTarget "Lingo TaggerTests" */ = {
 			isa = XCConfigurationList;
@@ -477,6 +444,7 @@
 				CDFE760419407F5F00447228 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
