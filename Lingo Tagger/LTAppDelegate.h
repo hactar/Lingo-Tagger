@@ -11,5 +11,8 @@
 @interface LTAppDelegate : NSObject <NSApplicationDelegate>
 
 @property (assign) IBOutlet NSWindow *window;
+@property (unsafe_unretained) IBOutlet NSTextView *inputTextView;
+@property (unsafe_unretained) IBOutlet NSTextView *outputTextView;
+@property (weak) IBOutlet NSComboBox *languageComboBox;
 
 @end
