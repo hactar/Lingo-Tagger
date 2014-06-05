@@ -1,0 +1,482 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CDFE75D219407F5F00447228 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CDFE75D119407F5F00447228 /* Cocoa.framework */; };
+		CDFE75DC19407F5F00447228 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CDFE75DA19407F5F00447228 /* InfoPlist.strings */; };
+		CDFE75DE19407F5F00447228 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CDFE75DD19407F5F00447228 /* main.m */; };
+		CDFE75E219407F5F00447228 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = CDFE75E019407F5F00447228 /* Credits.rtf */; };
+		CDFE75E519407F5F00447228 /* LTAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CDFE75E419407F5F00447228 /* LTAppDelegate.m */; };
+		CDFE75E819407F5F00447228 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = CDFE75E619407F5F00447228 /* MainMenu.xib */; };
+		CDFE75EA19407F5F00447228 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CDFE75E919407F5F00447228 /* Images.xcassets */; };
+		CDFE75F119407F5F00447228 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CDFE75F019407F5F00447228 /* XCTest.framework */; };
+		CDFE75F219407F5F00447228 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CDFE75D119407F5F00447228 /* Cocoa.framework */; };
+		CDFE75FA19407F5F00447228 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CDFE75F819407F5F00447228 /* InfoPlist.strings */; };
+		CDFE75FC19407F5F00447228 /* Lingo_TaggerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CDFE75FB19407F5F00447228 /* Lingo_TaggerTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CDFE75F319407F5F00447228 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CDFE75C619407F5F00447228 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CDFE75CD19407F5F00447228;
+			remoteInfo = "Lingo Tagger";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CDFE75CE19407F5F00447228 /* Lingo Tagger.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Lingo Tagger.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CDFE75D119407F5F00447228 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		CDFE75D419407F5F00447228 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		CDFE75D519407F5F00447228 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		CDFE75D619407F5F00447228 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		CDFE75D919407F5F00447228 /* Lingo Tagger-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Lingo Tagger-Info.plist"; sourceTree = "<group>"; };
+		CDFE75DB19407F5F00447228 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		CDFE75DD19407F5F00447228 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CDFE75DF19407F5F00447228 /* Lingo Tagger-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Lingo Tagger-Prefix.pch"; sourceTree = "<group>"; };
+		CDFE75E119407F5F00447228 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		CDFE75E319407F5F00447228 /* LTAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LTAppDelegate.h; sourceTree = "<group>"; };
+		CDFE75E419407F5F00447228 /* LTAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LTAppDelegate.m; sourceTree = "<group>"; };
+		CDFE75E719407F5F00447228 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		CDFE75E919407F5F00447228 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		CDFE75EF19407F5F00447228 /* Lingo TaggerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Lingo TaggerTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CDFE75F019407F5F00447228 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		CDFE75F719407F5F00447228 /* Lingo TaggerTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Lingo TaggerTests-Info.plist"; sourceTree = "<group>"; };
+		CDFE75F919407F5F00447228 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		CDFE75FB19407F5F00447228 /* Lingo_TaggerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Lingo_TaggerTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CDFE75CB19407F5F00447228 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CDFE75D219407F5F00447228 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CDFE75EC19407F5F00447228 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CDFE75F219407F5F00447228 /* Cocoa.framework in Frameworks */,
+				CDFE75F119407F5F00447228 /* XCTest.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CDFE75C519407F5F00447228 = {
+			isa = PBXGroup;
+			children = (
+				CDFE75D719407F5F00447228 /* Lingo Tagger */,
+				CDFE75F519407F5F00447228 /* Lingo TaggerTests */,
+				CDFE75D019407F5F00447228 /* Frameworks */,
+				CDFE75CF19407F5F00447228 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CDFE75CF19407F5F00447228 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CDFE75CE19407F5F00447228 /* Lingo Tagger.app */,
+				CDFE75EF19407F5F00447228 /* Lingo TaggerTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CDFE75D019407F5F00447228 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CDFE75D119407F5F00447228 /* Cocoa.framework */,
+				CDFE75F019407F5F00447228 /* XCTest.framework */,
+				CDFE75D319407F5F00447228 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CDFE75D319407F5F00447228 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CDFE75D419407F5F00447228 /* AppKit.framework */,
+				CDFE75D519407F5F00447228 /* CoreData.framework */,
+				CDFE75D619407F5F00447228 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		CDFE75D719407F5F00447228 /* Lingo Tagger */ = {
+			isa = PBXGroup;
+			children = (
+				CDFE75E319407F5F00447228 /* LTAppDelegate.h */,
+				CDFE75E419407F5F00447228 /* LTAppDelegate.m */,
+				CDFE75E619407F5F00447228 /* MainMenu.xib */,
+				CDFE75E919407F5F00447228 /* Images.xcassets */,
+				CDFE75D819407F5F00447228 /* Supporting Files */,
+			);
+			path = "Lingo Tagger";
+			sourceTree = "<group>";
+		};
+		CDFE75D819407F5F00447228 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CDFE75D919407F5F00447228 /* Lingo Tagger-Info.plist */,
+				CDFE75DA19407F5F00447228 /* InfoPlist.strings */,
+				CDFE75DD19407F5F00447228 /* main.m */,
+				CDFE75DF19407F5F00447228 /* Lingo Tagger-Prefix.pch */,
+				CDFE75E019407F5F00447228 /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CDFE75F519407F5F00447228 /* Lingo TaggerTests */ = {
+			isa = PBXGroup;
+			children = (
+				CDFE75FB19407F5F00447228 /* Lingo_TaggerTests.m */,
+				CDFE75F619407F5F00447228 /* Supporting Files */,
+			);
+			path = "Lingo TaggerTests";
+			sourceTree = "<group>";
+		};
+		CDFE75F619407F5F00447228 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CDFE75F719407F5F00447228 /* Lingo TaggerTests-Info.plist */,
+				CDFE75F819407F5F00447228 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CDFE75CD19407F5F00447228 /* Lingo Tagger */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CDFE75FF19407F5F00447228 /* Build configuration list for PBXNativeTarget "Lingo Tagger" */;
+			buildPhases = (
+				CDFE75CA19407F5F00447228 /* Sources */,
+				CDFE75CB19407F5F00447228 /* Frameworks */,
+				CDFE75CC19407F5F00447228 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Lingo Tagger";
+			productName = "Lingo Tagger";
+			productReference = CDFE75CE19407F5F00447228 /* Lingo Tagger.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CDFE75EE19407F5F00447228 /* Lingo TaggerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CDFE760219407F5F00447228 /* Build configuration list for PBXNativeTarget "Lingo TaggerTests" */;
+			buildPhases = (
+				CDFE75EB19407F5F00447228 /* Sources */,
+				CDFE75EC19407F5F00447228 /* Frameworks */,
+				CDFE75ED19407F5F00447228 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CDFE75F419407F5F00447228 /* PBXTargetDependency */,
+			);
+			name = "Lingo TaggerTests";
+			productName = "Lingo TaggerTests";
+			productReference = CDFE75EF19407F5F00447228 /* Lingo TaggerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CDFE75C619407F5F00447228 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = LT;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = patrick;
+				TargetAttributes = {
+					CDFE75EE19407F5F00447228 = {
+						TestTargetID = CDFE75CD19407F5F00447228;
+					};
+				};
+			};
+			buildConfigurationList = CDFE75C919407F5F00447228 /* Build configuration list for PBXProject "Lingo Tagger" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CDFE75C519407F5F00447228;
+			productRefGroup = CDFE75CF19407F5F00447228 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CDFE75CD19407F5F00447228 /* Lingo Tagger */,
+				CDFE75EE19407F5F00447228 /* Lingo TaggerTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CDFE75CC19407F5F00447228 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CDFE75DC19407F5F00447228 /* InfoPlist.strings in Resources */,
+				CDFE75EA19407F5F00447228 /* Images.xcassets in Resources */,
+				CDFE75E219407F5F00447228 /* Credits.rtf in Resources */,
+				CDFE75E819407F5F00447228 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CDFE75ED19407F5F00447228 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CDFE75FA19407F5F00447228 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CDFE75CA19407F5F00447228 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CDFE75E519407F5F00447228 /* LTAppDelegate.m in Sources */,
+				CDFE75DE19407F5F00447228 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CDFE75EB19407F5F00447228 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CDFE75FC19407F5F00447228 /* Lingo_TaggerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CDFE75F419407F5F00447228 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CDFE75CD19407F5F00447228 /* Lingo Tagger */;
+			targetProxy = CDFE75F319407F5F00447228 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CDFE75DA19407F5F00447228 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CDFE75DB19407F5F00447228 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		CDFE75E019407F5F00447228 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CDFE75E119407F5F00447228 /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		CDFE75E619407F5F00447228 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CDFE75E719407F5F00447228 /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+		CDFE75F819407F5F00447228 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CDFE75F919407F5F00447228 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CDFE75FD19407F5F00447228 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		CDFE75FE19407F5F00447228 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		CDFE760019407F5F00447228 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Lingo Tagger/Lingo Tagger-Prefix.pch";
+				INFOPLIST_FILE = "Lingo Tagger/Lingo Tagger-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		CDFE760119407F5F00447228 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Lingo Tagger/Lingo Tagger-Prefix.pch";
+				INFOPLIST_FILE = "Lingo Tagger/Lingo Tagger-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		CDFE760319407F5F00447228 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Lingo Tagger.app/Contents/MacOS/Lingo Tagger";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Lingo Tagger/Lingo Tagger-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Lingo TaggerTests/Lingo TaggerTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		CDFE760419407F5F00447228 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Lingo Tagger.app/Contents/MacOS/Lingo Tagger";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Lingo Tagger/Lingo Tagger-Prefix.pch";
+				INFOPLIST_FILE = "Lingo TaggerTests/Lingo TaggerTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CDFE75C919407F5F00447228 /* Build configuration list for PBXProject "Lingo Tagger" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CDFE75FD19407F5F00447228 /* Debug */,
+				CDFE75FE19407F5F00447228 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CDFE75FF19407F5F00447228 /* Build configuration list for PBXNativeTarget "Lingo Tagger" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CDFE760019407F5F00447228 /* Debug */,
+				CDFE760119407F5F00447228 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CDFE760219407F5F00447228 /* Build configuration list for PBXNativeTarget "Lingo TaggerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CDFE760319407F5F00447228 /* Debug */,
+				CDFE760419407F5F00447228 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CDFE75C619407F5F00447228 /* Project object */;
+}
