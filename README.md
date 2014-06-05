@@ -3,6 +3,10 @@ Lingo-Tagger
 
 A basic NSLinguisticTagger MacOS X App that tags a text and returns a JSON array of words and tags. 
 
+Screenshot
+==========
+![Screenshot](http://subzero.eu/wp-content/uploads/2014/06/lingo-tagger-screen.png)
+
 Example
 =======
 
